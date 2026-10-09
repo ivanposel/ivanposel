@@ -7,6 +7,13 @@ I build software that runs unattended — and fixes itself when it breaks. Croat
 - **JARVIS** *(private)* — a self-directing platform that runs six social media accounts around the clock: it finds footage, edits it with ffmpeg, captions and safety-checks it with vision models, schedules it through real web apps over the Chrome DevTools Protocol, and proves every step it reports. ~210k lines of Python, 1,370 automated tests, one runtime that replaced 72 separate daemons, and a local 3B model fine-tuned (QLoRA) on its own decisions.
 - **An offline AI assistant** *(client product)* — a macOS assistant on a local 14B model for a paying business client. Their data never leaves the machine.
 
+**Try these in your browser**
+
+| | |
+|---|---|
+| [siteforge](https://github.com/ivanposel/siteforge) · [live demos](https://ivanposel.github.io/siteforge/) | A one-line brief in, an offline interactive 3D website out — Three.js hero, local-model copy, headless-Chrome QA, no API keys. |
+| [adhd-quest](https://github.com/ivanposel/adhd-quest) · [play it](https://ivanposel.github.io/adhd-quest/) | An educational web game that teaches children what ADHD is, built for the Vista ADHD Centre. Offline, no tracking. |
+
 **Libraries pulled out of it** — each one solves a problem JARVIS hit in production:
 
 | | |
